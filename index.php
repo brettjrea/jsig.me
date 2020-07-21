@@ -1,0 +1,432 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!--Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--Required meta tags-->
+    <!--CDNS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/gh/coliff/bootstrap-rfs/bootstrap-rfs.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0-12/css/all.min.css" integrity="sha256-cC4ByuxbguozEVx8jcKy94MFiGvxN9GwjCqZ8f3+yBk=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0-12/css/brands.css" integrity="sha256-OlIenPhBOfuIsJvWZd/6j8Xb9F8GclvMRHuY9DoC2gU=" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=DM+Serif+Display|Playfair+Display|Questrial|Quicksand|Roboto+Condensed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css" type="text/css" media="all" />
+    <link rel="icon" type="image/png" href="<?php echo get_template_directory_uri(); ?>/favicon.png">
+    <!--CDNS-->
+</head>
+
+<body>
+    <!--Accordian Drawer-->
+    <nav class="nav flex-column drawer">
+        <div class="tray">
+            <!---->
+            <button class="btn-xl accordion">Home</button>
+            <div class="panel">
+                <p>Back to Frontpage</p>
+            </div>
+            <!---->
+            <button class="btn-xl accordion">Resume</button>
+            <div class="panel">
+                <p>Deiliver a PDF</p>
+            </div>
+            <!---->
+            <button class="btn-xl accordion">Work</button>
+            <div class="panel">
+                <ul class="nav justify-content-center font-italic">
+                    <li class="nav-item"><a class="nav-link" href="#">Logo Design</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Branding</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">UI Design</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Digital Art</a></li>
+                </ul>
+            </div>
+            <!---->
+            <button class="btn-xl accordion">Contact</button>
+            <div class="panel">
+                <p>Lets talk</p>
+            </div>
+        </div>
+        <!---->
+        <a class="navbar-brand" href="#">
+            <img src="https://pro2-bar-s3-cdn-cf2.myportfolio.com/d020bcc1bcf4ce81d2a9215e18dafa90/302ef110-8e61-4e8e-8424-10b3349da8e1_rwc_0x0x8334x8334x4096.png?h=d9b26e891844eb0b1640bff72be684c7"
+                width="60rem" height="60rem" alt="">
+        </a>
+    </nav>
+    <!--Accordian Drawer-->
+
+    <!--Buffer-->
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+            </div>
+        </div>
+        <!--Buffer-->
+
+        <!--Quad Button Container-->
+        <div class="container">
+            <div class="row">
+                <!--Ten Columns-->
+                <div class="col-10">
+                </div>
+                <!--Ten Columns-->
+
+                <!--Quad Button-->
+                <div class="container col-2">
+
+
+                    <a href="#" class="drawer-toggle">
+                        <div class="quad" onclick="myFunction(this)">
+                            <div class="quad1"></div>
+                            <div class="quad2"></div><br>
+                            <div class="quad3"></div>
+                            <div class="quad4"></div>
+                        </div>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+        <!--Quad Button Container-->
+
+        <!--Buffer-->
+        <div class="container">
+            <div class="row">
+                <div class="col-12 m-5">
+                </div>
+            </div>
+        </div>
+        <!--Buffer-->
+
+
+        <!--Main Jumbotron Container-->
+        <div class="container-flush social d-none d-lg-block">
+
+            <!--Social Buttons-->
+            <ul style="list-style-type: none">
+                <li><a href="#" class="facebook"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#" class="twitter"><i class="fab fa-behance"></i></a></li>
+                <li><a href="#" class="whatsapp"><i class="fab fa-linkedin-in"></i></a></li>
+                <li><a href="#" class="pinterest"><i class="far fa-envelope"></i></a></li>
+            </ul>
+
+        </div>
+        <!--End Social Buttons-->
+
+        <!--Main Jumbotron Container-->
+        <div class="container">
+            <div class="row">
+             
+                <div class="col-sm-12 col-md-6 jumbotron jumbotron-fluid" style="height:75vh;">
+                    <div class="container-flush">
+                        <h1 class="display-1 jumbotron-header ml-5">Ummm, hi!<br>
+                            I’m Jess.</h1>
+
+                        <p class="lead jumbotron-text ml-5">
+                            + graphic designer<br>
+                            + digital artist<br>
+                            + ui designer</p>
+
+                    </div>
+                </div>
+             
+
+                <div class="col-sm-12 col-md-6 jumbotron jumbotron-fluid" style="height:75vh;">
+                    <div class="scene" id="scene">
+
+                        <img src="<?php echo get_template_directory_uri(); ?>/dots.svg" class="jumbodots">
+
+                        <div id="circlecontainer" data-depth="0.2">
+                            <img src="<?php echo get_template_directory_uri(); ?>/Elli1.png" class="circle">
+                        </div>
+                        <div id="linecontainer">
+                            <div>
+                                <div class="line">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="col-md-2">
+        </div>
+    </div>
+    <!--Main Jumbotron Container-->
+
+
+    <!--Dots and Blades-->
+    <div class="container mt-5">
+        <div class="row no-gutters">
+
+            <div class="col-sm-12 col-md-6 mt-5" style="height:75vh;">
+                
+                <div class="container">
+   <div class="svgcontainer">
+                <svg id="mySVG" height="500" width="100%">
+
+                    <text id="scroll" x="15" y="50" fill="#a2a2a2" transform="rotate(-90, 15, 50)" font-style="italic" font-weight="bold" font-size="1.1rem" font-family="DM Serif Display', serif">Scroll</text>
+
+                    <path fill="none" stroke="#a2a2a2" stroke-width="3" id="triangle" d="M30 0 V0 600" />
+                </svg>
+
+                <script>
+                    // Get the id of the <path> element and the length of <path>
+                    var triangle = document.getElementById("triangle");
+                    var length = triangle.getTotalLength();
+
+                    // The start position of the drawing
+                    triangle.style.strokeDasharray = length;
+
+                    // Hide the triangle by offsetting dash. Remove this line to show the triangle before scroll draw
+                    triangle.style.strokeDashoffset = length;
+
+                    // Find scroll percentage on scroll (using cross-browser properties), and offset dash same amount as percentage scrolled
+                    window.addEventListener("scroll", myFunction);
+
+                    function myFunction() {
+                        var scrollpercent = (document.body.scrollTop + document.documentElement.scrollTop) / (
+                            document.documentElement.scrollHeight - document.documentElement.clientHeight);
+
+                        var draw = length * (scrollpercent * 2.5);
+
+                        // Reverse the drawing (when scrolling upwards)
+                        triangle.style.strokeDashoffset = length - draw;
+                    }
+                </script>
+            </div>
+                    <div class="bio-dots">
+                        <img src="<?php echo get_template_directory_uri(); ?>/dots.png" style="width:100%;height:auto;">
+                    </div>
+
+                    <div class="blade1">
+                        <img src="<?php echo get_template_directory_uri(); ?>/Rect2.png" style="width:100%;height:100%;">
+                    </div>
+
+                    <div class="blade2">
+                        <img src="<?php echo get_template_directory_uri(); ?>/Rect1.png" style="width:100%;height:100%;">
+                    </div>
+
+                    <div class="blade3">
+                        <img src="<?php echo get_template_directory_uri(); ?>/Rect2.png" style="width:100%;height:100%;">
+                    </div>
+                </div>
+
+            </div>
+
+
+
+            <!--Dots and Blades-->
+
+            <!--Bio Jumbotron-->
+            <div class="col-sm-12 col-md-6 jumbotron jumbotron-fluid" style="height:75vh;">
+                <div class="container">
+
+                    <h1 class="display-1 jumbotron-header text-center">Jess Who?</h1>
+
+
+                    <div class="wrapper">
+                        <p class="bio-jumbotron-text">
+                            I’m Jessica Signorello, a 23 year old creative from Long Island, NY. I’m a trained
+                            graphic designer, UI designer and digital artist with a strong focus on branding, logo
+                            development and web design. With nearly four years of professional experience, I’ve been
+                            involved with a number of different industries: hospitality, legal, medical and more.
+                            While my work speaks for itself, if you're interested, click the link below to see my
+                            written credentials.
+                        </p>
+
+
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!--Bio Jumbotron-->
+
+
+
+
+    <!--Portfolio Jumbotron Container-->
+    <div class="container-flush mt-5">
+        <div class="row">
+            <div class="col-12 jumbotron jumbotron-fluid" style="height:45vh;">
+                <div class="container-flush">
+                    <h1 class="display-1 text-center jumbotron-header portfolio-jumbotron-header">My Portfolio</h1>
+                    <p class="text-center portfolio-jumbotron-text">
+                     Don’t worry, I know exactly what you came here for.
+                     <br>
+                     So go ahead, click any of the boxes below to see some of my work.
+                    </p>
+                   </div>
+                <div class="wrapper">
+                    <img src="<?php echo get_template_directory_uri(); ?>/dots.png" class="portfolio-dots d-none d-lg-block">
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+    <!--Portfolio Jumbotron Container-->
+
+    <!--Top Quadrant Row-->
+    <div class="container">
+        <div class="row no-gutters">
+
+
+
+            <!--Quadrant Box-->
+            <div class="wrapper col-md-6 mt-2 mb-2 pl-2 pr-2">
+                <div class="quadrant-box-top">
+                    <h1 class="quadrant-text">logo design</h1>
+                </div>
+            </div>
+            <!--Quadrant Box-->
+
+            <!--Quadrant Box-->
+            <div class="wrapper col-md-6 mt-2 mb-2 pl-2 pr-2">
+                <div class="quadrant-box-top">
+                    <h1 class="quadrant-text">branding</h1>
+                </div>
+            </div>
+            <!--Quadrant Box-->
+
+
+
+        </div>
+    </div>
+    <!--Top Quadrant Row-->
+
+    <!--Bottom Quadrant Row-->
+    <div class="container">
+        <div class="row no-gutters">
+
+            <!--Quadrant Box-->
+            <div class="wrapper col-md-6 mt-2 mb-2 pl-2 pr-2">
+                <div class="quadrant-box">
+                    <h1 class="quadrant-text">ui design</h1>
+                </div>
+            </div>
+            <!--Quadrant Box-->
+
+            <!--Quadrant Box-->
+            <div class="wrapper col-md-6 mt-2 mb-2 pl-2 pr-2">
+                <div class="quadrant-box">
+                    <h1 class="quadrant-text">digital art</h1>
+                </div>
+            </div>
+            <!--Quadrant Box-->
+
+        </div>
+    </div>
+    </div>
+    </div>
+    <!--Bottom Quadrant Row-->
+
+    <!--Quadrant Section-->
+
+
+    <!--Contact Form Container-->
+
+
+    <!--Contact Form Images-->
+    <div class="container-flush">
+        <div class="row col-sm-12">
+            <div class="wrapper">
+                <img src="<?php echo get_template_directory_uri(); ?>/dots.png" class="contact-dots">
+
+            </div>
+
+
+            <div class="wrapper">
+                <img src="<?php echo get_template_directory_uri(); ?>/holograph2.png" class="contact-holograph">
+            </div>
+        </div>
+    </div>
+    </div>
+    <!--Contact Form Images-->
+
+    <!--Contact Form Jumbotron-->
+    <div class="container-flush">
+        <div class="row">
+            <div class="col-sm-12 col-md-8 wrapper">
+                <div class="contact-form">
+                    <h1 class="display-1 contact-jumbotron-header">Get In Touch</h1>
+                    <p class="contact-jumbotron-text">Think I’d be
+                        a good
+                        fit for your
+                        next project?<br>Let’s chat! Enter your contact info down below.</p>
+                    <!--Contact Form Jumbotron-->
+
+                    <!--Contact Form-->
+                    <form>
+
+                        <!--Contact Form Input-->
+                        <div class="form-group">
+                            <label for="formGroupExampleInput"></label>
+                            <input type="text" class="form-control contact-form-input-text" id="formGroupExampleInput"
+                                placeholder="Name">
+                        </div>
+                        <!--Contact Form Input-->
+
+                        <!--Contact Form Input-->
+                        <div class="form-group">
+                            <label for="formGroupExampleInput2"></label>
+                            <input type="text" class="form-control contact-form-input-text" id="formGroupExampleInput2"
+                                placeholder="Email Address">
+                        </div>
+                        <!--Contact Form Input-->
+
+                        <!--Contact Form Input-->
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1"></label>
+                            <textarea class="form-control contact-form-input-text" id="exampleFormControlTextarea1"
+                                placeholder="Leave A Message." rows="4"></textarea>
+                        </div>
+                        <!--Contact Form Input-->
+
+                    </form>
+                    <!--Contact Form-->
+
+                </div>
+            </div>
+        </div>
+
+
+        <!--Spacing-->
+        <div class="col-md-4">
+        </div>
+        <!--Spacing-->
+
+    </div>
+    <!--Contact Form Container-->
+
+    <!--Footer Container-->
+    <div class="container-flush">
+        <div class="row">
+            <div class="wrapper col-12 mt-2">
+                <div class="footer fixed-bottom">
+                    <p class="lead footer-text">© Jessica Signorello 2019</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Footer Container-->
+
+    <!--JavaScript-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js" integrity="sha256-ivk71nXhz9nsyFDoYoGf2sbjrR9ddh+XDkCcfZxjvcM=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/scripts.js"></script>
+    <!--JavaScript-->
+
+</body>
+
+</html>
