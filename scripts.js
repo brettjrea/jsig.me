@@ -1,3 +1,7 @@
+$(function(){
+        $('#head').load( 'inc/head.html' );
+    });
+
 ///quad button
 function myFunction(x) {
   x.classList.toggle("change");
